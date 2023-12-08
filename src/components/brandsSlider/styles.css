@@ -1,0 +1,23 @@
+.slick-slider{
+    width: 100%;
+}
+
+.ItemBrand{
+    border-radius: 5px;
+    height: 60px;
+    max-width: 250px;
+
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5px;
+}
+
+.slick-track{
+    gap: 1rem;
+    display: flex;
+}
+
+
+

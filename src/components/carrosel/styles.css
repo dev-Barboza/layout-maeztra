@@ -1,0 +1,41 @@
+.titlebanner{
+    font-weight: bold;
+}
+
+.ButtonSlider{
+    width: 8%;
+    background-color: #FAA500;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.DescriptionBanner{
+    font-size: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    z-index: 0 !important;
+}
+
+.carousel-indicators{
+    z-index: 0 !important;
+}
+
+@media (max-width: 800px) {
+  
+    .ButtonSlider{
+      padding: 5px 15px;
+      width: 34%;
+    }
+  }

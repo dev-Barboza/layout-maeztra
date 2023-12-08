@@ -1,0 +1,100 @@
+.containerSliderBenefits{
+    padding: 0% 7%;
+    margin-top: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topBar{
+    background-color: #353535;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.textTopBar{
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.titleSectionBenefits{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.containerSliderBrands{
+    padding: 0% 7%;
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleSectionBrands{
+    color: #353535;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1% 0%;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.containerSliderShelf{
+    padding: 0% 7%;
+    margin: 3rem 0rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerSliderShelf .slick-slider .slick-list .slick-track .slick-slide{
+    height: 550px;
+    display: flex;
+}
+
+.containerSliderShelf .slick-slider .slick-list .slick-track .slick-slide .productItem{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.containerBannerSeo{
+    width: 100%;
+    padding: 0% 7%;
+    height: 480px;
+    margin-bottom: 5rem;
+}
+
+/* .slick-slide div{
+    display: flex;
+    justify-content: center;
+} */
+
+@media (max-width: 800px) {
+
+    .containerBannerSeo{
+        margin-bottom: 3rem;
+    }
+
+    .titleSectionBrands{
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .slick-slide{
+        justify-content: center;
+    }
+  }
+
+
+
+
+
+

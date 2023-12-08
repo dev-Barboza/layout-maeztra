@@ -1,0 +1,17 @@
+.NavbarContainerMobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* height: 80px; */
+    padding: 5% 7%;
+}
+
+.SectionNavbarMobileCl{
+    gap: 1rem;
+    display: flex;
+}
+
+.SectionNavbarMobileCM{
+    gap: 1rem;
+    display: flex;
+}

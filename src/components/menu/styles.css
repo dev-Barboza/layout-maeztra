@@ -1,0 +1,50 @@
+.MenuContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.Sectionmenu{
+    max-width: 1230px;
+    width: calc(100% - 100px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7rem;
+}
+
+.LinkCategory{
+    text-decoration: none;
+    color: #353535;
+    cursor: pointer;
+    font-size: 0.875rem;
+    
+}
+
+.LinkCategory:hover{
+    color: #FAA500;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .MenuContainer{
+        display: none;
+    }
+
+  
+  }
+
+  @media (max-width: 1100px) {
+    .MenuContainer{
+        max-width: auto;
+        width: auto;
+    }
+
+  
+  }
+
+  .Sectionmenu{
+    max-width: auto;
+    width: auto;
+}

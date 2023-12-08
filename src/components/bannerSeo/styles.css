@@ -1,0 +1,51 @@
+.sectionBannerSeo{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+
+.descriptionBanner{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bannerSeo{
+    width: 70%;
+    background-image: url('https://i.imgur.com/1vLCv01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 34%;
+}
+
+.descriptionBannerSeo{
+    font-size: 0.87rem;
+    padding-right: 3rem;
+}
+
+.titleBannerSeio{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .sectionBannerSeo{
+        flex-direction: column;
+    }
+
+    .descriptionBanner{
+        width: 100%;
+    }
+
+    .bannerSeo{
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .containerBannerSeo{
+        margin-bottom: 3rem;
+    }
+  }
